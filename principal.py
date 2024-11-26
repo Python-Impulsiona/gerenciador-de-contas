@@ -1,5 +1,6 @@
 from datetime import datetime
 import controladores
+import controladores.criar_conta
 import controladores.listar_contas
 
 opcoes_menu = [
@@ -26,6 +27,7 @@ def iniciar_menu():
                 #...
             case '2':
                 print("\n ** CRIAR UMA NOVA CONTA ** \n")
+                controladores.criar_conta.executar()
                 #...
             case '3':
                 print("\n ** ATUALIZAR UMA CONTA ** \n")
