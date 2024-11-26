@@ -15,7 +15,7 @@ Sistema para controle financeiro pessoal. Registros de despesas e receitas, cons
 - Ler (Read):
     - Visualização de uma lista das contas registradas, com filtros por:
         - Tipo (Crédito/Débito)
-        - Status
+        - Status (pago, pendente, cancelado)
         - Todos
 - Atualizar (Update):
     - Alteração de qualquer informação previamente registrada.

@@ -1,4 +1,6 @@
 from datetime import datetime
+import controladores
+import controladores.listar_contas
 
 opcoes_menu = [
     "1 - Listar contas",
@@ -20,6 +22,7 @@ def iniciar_menu():
         match opcao_escolhida:
             case '1':
                 print("\n ** LISTAR CONTAS ** \n")
+                controladores.listar_contas.executar()
                 #...
             case '2':
                 print("\n ** CRIAR UMA NOVA CONTA ** \n")
