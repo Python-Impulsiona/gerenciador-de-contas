@@ -2,11 +2,6 @@ from funcionalidades.utilidades import solicitar_tipo, validar_data, solicitar_s
 from servicos import obter_proximo_id_conta, salvar_conta
 
 def executar():
-    """
-    - solicitar os dados
-    - chamar o servico passando o novo objeto
-    - validar o retorno do servico
-    """
     print("**Informe os dados abaixo **")
 
     descricao = input("Qual é a descrição? ")
