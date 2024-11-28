@@ -1,5 +1,6 @@
 from datetime import datetime
 from controladores import criar_conta, excluir_conta, listar_contas
+from os import system
 
 opcoes_menu = [
     "1 - Listar contas",
@@ -42,5 +43,6 @@ def iniciar_menu():
                 print("\n OPÇÃO INVÁLIDA \n")
 
 if __name__ == "__main__":
+    system('clear')
     print("\n" + datetime.now().strftime("%d/%m/%Y, %H:%M"))
     iniciar_menu()
