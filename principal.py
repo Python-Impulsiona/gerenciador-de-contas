@@ -1,5 +1,5 @@
 from datetime import datetime
-from controladores import criar_conta, excluir_conta, listar_contas
+from controladores import criar_conta, excluir_conta, listar_contas, atualizar_conta
 from os import system
 
 opcoes_menu = [
@@ -30,6 +30,7 @@ def iniciar_menu():
                 #...
             case '3':
                 print("\n ** ATUALIZAR UMA CONTA ** \n")
+                atualizar_conta.executar()
                 #...
             case '4':
                 print("\n ** EXCLUIR UMA CONTA ** \n")
