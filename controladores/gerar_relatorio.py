@@ -1,4 +1,4 @@
-from funcionalidades import gerar_relatorio
+from funcionalidades import gerar_relatorio_mensal
 def executar():
     mes = input("Informe um mês entre 1 e 12: ")
 
@@ -9,4 +9,4 @@ def executar():
     if len(mes) == 1:
         mes = "0" + mes 
 
-    gerar_relatorio.executar(mes)
+    gerar_relatorio_mensal.executar(mes)
