@@ -25,3 +25,12 @@ Sistema para controle financeiro pessoal. Registros de despesas e receitas, cons
 - Gerar relatório (PDF) do mês
     - Gerar dados do mês atual com a soma das despesas e receitas
     - Listar as contas utilizadas nos cálculos agrupados por data
+
+
+## Instalação de bibliotecas
+
+```bash
+  pip install pdfkit
+  pip install jinja2
+```
+- [Link de instalação do wkhtmltopdf](https://wkhtmltopdf.org/downloads.html)
